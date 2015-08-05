@@ -12,14 +12,12 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li><a href="#">Right Button Active</a></li>
-      <!--<li class="has-dropdown">-->
-        <!--<a href="#">Right Button Dropdown</a>-->
-        <!--<ul class="dropdown">-->
-          <!--<li><a href="#">First link in dropdown</a></li>-->
-          <!--<li class="active"><a href="#">Active link in dropdown</a></li>-->
-        <!--</ul>-->
-      <!--</li>-->
+      <% if current_user %>
+        <li><%= link_to current_user.name, user_path(current_user) %></li>
+        <li><%= link_to "logout", logout_path, method: :delete %></li>
+      <% else %>
+        <li><%= link_to "Login", login_path %></li>
+      <% end %>
     </ul>
 
     <!-- Left Nav Section -->
