@@ -15,3 +15,54 @@
  *= require foundation_and_overrides
 
  */
+
+/*body {*/
+  /*font-family:'Raleway',Helvetica,Arial,sans-serif;*/
+  /*font-weight:400;*/
+  /*background-color:rgba(0,0,0,0.02);*/
+  /*background:url(world-map-on-hands.jpg);*/
+/*}*/
+
+/*.button-group{*/
+  /*float:none;*/
+/*}@media only screen and (min-width: 40.063em){.button-group{float:right;}}*/
+
+/*.namelogo{padding:20px 10px 0px 10px;}@media only screen and (min-width: 40.063em) {.namelogo{padding-bottom:20px;}}.namelogo h1{font-size:1.5em;font-weight:600;text-align:center;}@media only screen and (min-width: 40.063em) {.namelogo h1{font-size:16px;text-align:left;}}@media only screen and (min-width: 64.063em) {.namelogo h1{font-size:24px;text-align:left;}}*/
+
+.hero {
+  background: url("hands.jpg") no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  margin-bottom: 3rem; }
+
+.circle-bg, .quote-1, .quote-2 {
+  margin-top: -2rem;
+  text-align: center;
+  opacity: 0.9;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem; }
+@media only screen and (min-width: 64.063em) {
+  .circle-bg, .quote-1, .quote-2 {
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 13rem;
+    width: 13rem; } }
+.circle-bg p, .quote-1 p, .quote-2 p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.quote-1 {
+  background: #333;
+  color: #fff;
+  z-index: 9999999;
+  position: relative; }
+@media only screen and (min-width: 64.063em) {
+  .quote-1 {
+    margin-right: 10rem; } }
+
+.quote-2 {
+  background: #F2F1EF; }
+.quote-2 p {
+  padding: 2rem; }
