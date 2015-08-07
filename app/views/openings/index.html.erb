@@ -1,0 +1,18 @@
+<!--<%#= render partial: "filter" %>-->
+<div class="openings">
+  <% @openings.each do |opening| %>
+    <div class="opening">
+      <h3><%= link_to opening.title, opening_path(opening) %></h3>
+      <dl>
+        <dt>Country</dt>
+        <dd class="opening_country"><%= opening.country %></dd>
+        <dt>Sector</dt>
+        <dd class="opening-sector"><%= opening.sector %></dd>
+        <dt>Important Dates</dt>
+        <dd>Application Date: <%= opening.apply_date %></dd>
+        <dd>Start Date: <%= opening.start_date %></dd>
+      </dl>
+    </div>
+  <% end %>
+</div>
+
