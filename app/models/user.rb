@@ -4,10 +4,10 @@ class User < ActiveRecord::Base
       user
     else
       create({name: oauth.extra.raw_info.name,
-          nickname: oauth.info.nickname,
-          uid: oauth.uid,
-          token: oauth.credentials.token,
-          token_secret: oauth.credentials.secret
+              nickname: oauth.info.nickname,
+              uid: oauth.uid,
+              token: oauth.credentials.token,
+              token_secret: oauth.credentials.secret
         })
     end
   end

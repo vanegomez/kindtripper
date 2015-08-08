@@ -20,7 +20,7 @@
   /*font-family:'Raleway',Helvetica,Arial,sans-serif;*/
   /*font-weight:400;*/
   /*background-color:rgba(0,0,0,0.02);*/
-  /*background:url(world-map-on-hands.jpg);*/
+  /*background: url(world-map-hands.jpg) no-repeat center center;*/
 /*}*/
 
 /*.button-group{*/
@@ -30,7 +30,7 @@
 /*.namelogo{padding:20px 10px 0px 10px;}@media only screen and (min-width: 40.063em) {.namelogo{padding-bottom:20px;}}.namelogo h1{font-size:1.5em;font-weight:600;text-align:center;}@media only screen and (min-width: 40.063em) {.namelogo h1{font-size:16px;text-align:left;}}@media only screen and (min-width: 64.063em) {.namelogo h1{font-size:24px;text-align:left;}}*/
 
 .hero {
-  background: url("hands.jpg") no-repeat center center;
+  background: url("world-map-hands.jpg") no-repeat center center;
   background-size: cover;
   height: 80vh;
   margin-bottom: 3rem; }
@@ -67,21 +67,34 @@
 .quote-2 p {
   padding: 2rem; }
 
-.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-  color: lightskyblue;
-  display: block;
-  font-weight: normal;
+/*.top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {*/
+  /*color: lightskyblue;*/
+  /*display: block;*/
+  /*font-weight: normal;*/
+  /*padding: 0 0.9375rem;*/
+/*}*/
+
+/*.top-bar-section ul li > a {*/
+  /*color: lightskyblue;*/
+  /*display: block;*/
+  /*font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+  /*font-size: 0.8125rem;*/
+  /*font-weight: normal;*/
+  /*padding-left: 0.9375rem;*/
+  /*padding: 12px 0 12px 0.9375rem;*/
+  /*text-transform: none;*/
+  /*width: 100%;*/
+/*}*/
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: transparent;
+  line-height: 2.8125rem;
   padding: 0 0.9375rem;
 }
 
-.top-bar-section ul li > a {
-  color: lightskyblue;
-  display: block;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-size: 0.8125rem;
-  font-weight: normal;
-  padding-left: 0.9375rem;
-  padding: 12px 0 12px 0.9375rem;
-  text-transform: none;
-  width: 100%;
+.right {
+  background: transparent;
+  line-height: 2.8125rem;
+  padding: 0 0.9375rem;
 }
+
