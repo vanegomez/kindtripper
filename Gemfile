@@ -24,10 +24,7 @@ gem 'foundation-rails'
 gem 'omniauth-twitter'
 gem 'figaro'
 gem 'httparty'
-
-group :production do
-  gem 'rails_12factor'
-end
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
