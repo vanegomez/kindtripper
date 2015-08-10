@@ -1,1 +1,8 @@
+<div class="filter">
+  <label>Filter by Country</label>
+  <%= select :opening, :filter_country, @countries, {include_blank: true} %>
+  <label>Filter by Interest</label>
+  <%= select :opening, :filter_sector, @sectors, {include_blank: true} %>
+</div>
+
 

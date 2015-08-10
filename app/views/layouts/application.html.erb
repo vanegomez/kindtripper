@@ -7,9 +7,9 @@
     <title><%= content_for?(:title) ? yield(:title) : "KindTripper" %></title>
 
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
-    <%= stylesheet_link_tag    "application" %>
+    <%= stylesheet_link_tag    "application", media: 'all' %>
     <%= javascript_include_tag "vendor/modernizr" %>
-    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
 

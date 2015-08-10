@@ -2,8 +2,8 @@ class OpeningsController < ApplicationController
   require 'httparty'
   def index
     @openings  = Opening.all
-    @countries = @openings.pluck(:country).uniq
-    @sectors   = @openings.pluck(:sector).uniq
+    @countries = @openings.by_country
+    @sectors   = @openings.by_sector
   end
 
   def show

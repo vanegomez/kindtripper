@@ -1,0 +1,40 @@
+<link href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/icomoon-uikit-feb.css" rel="stylesheet">
+<div class="row">
+  <div class="small-12 columns">
+    <article class="post">
+      <div id="cycler">
+        <img class="active" src="/assets/environment_2.jpg.jpg" />
+        <img src="/assets/youth.jpg" />
+        <img src="/assets/environment_1.jpg" />
+        <img src="/assets/health.jpg" />
+        <img src="/assets/agriculture.jpg" />
+        <img src="/assets/community.jpg" />
+        <%#= image_tag("youth.jpg") %>
+        <%#= image_tag("environment_1.jpg") %>
+        <%#= image_tag("health.jpg") %>
+        <%#= image_tag("agriculture.jpg") %>
+        <%#= image_tag("community.jpg") %>
+        <%#= image_tag("school.jpg") %>
+        <%#= image_tag("environment_2.jpg") %>
+      </div>
+      <div class="content">
+        <h3><%= @opening.title %></h3>
+        <p><strong><%= @opening.country.capitalize %></strong></p>
+        <p><%= @opening.project_description %></p>
+        <p>___</p>
+        <p>Apply by: <%= @opening.apply_date %></p>
+        <p>Start date: <%= @opening.start_date %></p>
+        <!--<div class="button-group" data-grouptype="OR">-->
+          <!--<button href="#" class="small button primary radius">Pre-order</button>-->
+          <!--<button href="#" class="small button success radius">Learn More</button>-->
+        <!--</div>-->
+        <div class="share">
+          <span class="icon icon-heart"></span>
+          <span class="count">save</span>
+          <!--<span class="icon icon-link"></span>-->
+          <!--<span class="count">99,357</span>-->
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

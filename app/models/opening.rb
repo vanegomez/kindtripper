@@ -28,6 +28,16 @@ class Opening < ActiveRecord::Base
       end
     end
   end
+
+  def self.by_country
+    Opening.all.pluck(:country).uniq.sort.map do |country|
+      country.capitalize
+    end
+  end
+
+  def self.by_sector
+    Opening.all.pluck(:sector).uniq.sort
+  end
 end
 
 
