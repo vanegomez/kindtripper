@@ -1,6 +1,14 @@
 class Opening < ActiveRecord::Base
   require 'httparty'
 
+  after_create :clear_cache
+  after_save :clear_cache
+  after_destroy :clear_cache
+
+  def clear_cache
+    Rails.cache.clear
+  end
+
   def self.parse_response
     page = "http://www.peacecorps.gov/api/v1/openings"
     data = []

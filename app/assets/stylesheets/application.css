@@ -22,6 +22,10 @@ body {
   /*color: #2E2F30;*/
 }
 
+h5 {
+  color: #615753;
+}
+
 h3 {
   color: deepskyblue;
 }
@@ -192,6 +196,14 @@ button.round, .button.round {
 .button-group button + button {
   margin-left: 5px; }
 
-#cycler {position:relative;}
-#cycler img{position:absolute;z-index:1}
-#cycler img.active{z-index:3}
+#cycler {
+  /*position:relative;*/
+  min-height: 340px;
+  max-width: 970px; }
+
+#cycler img {
+  position:absolute;
+  z-index:1; }
+
+#cycler img.active {
+  z-index:3 }

@@ -3,20 +3,22 @@
     <%= render partial: "filter" %>
   </div>
   <div class="small-9 columns small-centered">
-    <% @openings.each do |opening| %>
-      <div class="opening" data-country="<%= opening.country %>" data-sector="<%= opening.sector %>">
-        <dl>
-          <h3><%= link_to opening.title, opening_path(opening) %></h3>
-          <dt>Country</dt>
-          <dd class="opening_country"><%= opening.country.capitalize %></dd>
-          <dt>Sector</dt>
-          <dd class="opening-sector"><%= opening.sector %></dd>
-          <dt>Important Dates</dt>
-          <dd>Application Date: <%= opening.apply_date %></dd>
-          <dd>Start Date: <%= opening.start_date %></dd>
-        </dl>
-        <hr>
-      </div>
+    <% cache("openings_list") do %>
+      <% @openings.each do |opening| %>
+        <div class="opening" data-country="<%= opening.country %>" data-sector="<%= opening.sector %>">
+          <dl>
+            <h3><%= link_to opening.title, opening_path(opening) %></h3>
+            <dt>Country</dt>
+            <dd class="opening_country"><%= opening.country.capitalize %></dd>
+            <dt>Sector</dt>
+            <dd class="opening-sector"><%= opening.sector %></dd>
+            <dt>Important Dates</dt>
+            <dd>Application Date: <%= opening.apply_date %></dd>
+            <dd>Start Date: <%= opening.start_date %></dd>
+          </dl>
+          <hr>
+        </div>
+      <% end %>
     <% end %>
   </div>
 </div>

@@ -10,5 +10,5 @@ function cycleImages(){
 
 $(document).ready(function(){
 // run every 7s
-  setInterval('cycleImages()', 1000);
+  setInterval('cycleImages()', 5000);
 })

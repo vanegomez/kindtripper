@@ -4,12 +4,17 @@ class SessionsController < ApplicationController
     if @user
       session[:user_id] = @user.id
     end
-    redirect_to root_path
+    redirect_to session[:back_to] || root_path
   end
 
   def destroy
     session.clear
     redirect_to root_path
+  end
+
+  def new
+    session[:back_to] = request.referrer
+    redirect_to login_tweet_path
   end
 
   private
