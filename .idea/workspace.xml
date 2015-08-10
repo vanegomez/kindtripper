@@ -68,11 +68,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/config/routes.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3013393" vertical-offset="0" max-vertical-offset="448">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
                   <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/application.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6026786" vertical-offset="0" max-vertical-offset="448">
+                  <caret line="18" column="68" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="68" />
                   <folding />
                 </state>
               </provider>
@@ -115,7 +125,7 @@
           <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/openings/show.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4693396" vertical-offset="191" max-vertical-offset="690">
+                <state vertical-scroll-proportion="0.9198113" vertical-offset="0" max-vertical-offset="690">
                   <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="29" selection-end-column="18" />
                   <folding />
                 </state>
@@ -769,14 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47727272" vertical-offset="0" max-vertical-offset="440">
-          <caret line="14" column="68" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06818182" vertical-offset="0" max-vertical-offset="440">
@@ -963,7 +965,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/openings/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4693396" vertical-offset="191" max-vertical-offset="690">
+        <state vertical-scroll-proportion="0.9198113" vertical-offset="0" max-vertical-offset="690">
           <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="29" selection-end-column="18" />
           <folding />
         </state>
@@ -971,8 +973,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3013393" vertical-offset="0" max-vertical-offset="448">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6026786" vertical-offset="0" max-vertical-offset="448">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="68" />
           <folding />
         </state>
       </provider>
