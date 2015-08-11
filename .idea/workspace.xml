@@ -31,7 +31,7 @@
     <favorites_list name="kindtripper" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50646204">
+    <splitter split-orientation="horizontal" split-proportion="0.7042139">
       <split-first>
         <leaf>
           <file leaf-file-name="opening.rb" pinned="false" current-in-tab="false">
@@ -74,11 +74,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="user_openings_controller.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="user_openings_controller.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/controllers/user_openings_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.13392857" vertical-offset="0" max-vertical-offset="448">
-                  <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+                  <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="openings.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/assets/javascripts/openings.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.8035714" vertical-offset="0" max-vertical-offset="540">
+                  <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -186,7 +196,6 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/openings.js" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/opening.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -198,6 +207,7 @@
         <option value="$PROJECT_DIR$/app/views/openings/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/user_openings_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/openings.js" />
       </list>
     </option>
   </component>
@@ -358,10 +368,6 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -380,6 +386,10 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -390,7 +400,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="appl&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;ap&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;_nav&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;ope&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/openings_controller.rb&#10;rou&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/routes.rb&#10;show&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/users/show.html.erb&#10;ro&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/users_controller.rb&#10;sch&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;im&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/javascripts/image.js&#10;ge&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;css&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/stylesheets/application.css&#10;se&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/sessions_controller.rb&#10;op&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/models/opening.rb&#10;gem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;inde&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/welcome/index.html.erb&#10;sche&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;_na&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;schem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;user&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/show.html.erb&#10;gemfile&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="fil&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/_filter.html.erb&#10;appl&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;ap&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;_nav&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;ope&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/openings_controller.rb&#10;rou&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/routes.rb&#10;show&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/users/show.html.erb&#10;ro&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/users_controller.rb&#10;sch&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;im&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/javascripts/image.js&#10;ge&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;css&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/stylesheets/application.css&#10;se&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/sessions_controller.rb&#10;op&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/models/opening.rb&#10;gem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;inde&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/welcome/index.html.erb&#10;sche&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;_na&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;schem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;user&#9;null&#9;null&#10;sho&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/show.html.erb&#10;gemfile&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rales_engine" />
   </component>
@@ -787,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/openings/_filter.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="424">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/foundation_and_overrides.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="30.144022" vertical-offset="10207" max-vertical-offset="22410">
@@ -878,13 +881,6 @@
         <state vertical-scroll-proportion="0.73660713" vertical-offset="0" max-vertical-offset="495">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/openings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.13839285" vertical-offset="107" max-vertical-offset="555">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -983,14 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user_openings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13392857" vertical-offset="0" max-vertical-offset="448">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -1003,6 +991,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4693396" vertical-offset="176" max-vertical-offset="645">
           <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/openings/_filter.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14150943" vertical-offset="0" max-vertical-offset="424">
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user_openings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/openings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8035714" vertical-offset="0" max-vertical-offset="540">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding />
         </state>
       </provider>

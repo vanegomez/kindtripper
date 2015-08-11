@@ -4,10 +4,9 @@ $(document).ready(function () {
 
   $('#opening_filter_country').on('change', function () {
     var currentCountry = this.value.toLowerCase();
-    var currentSector = $('#opening_filter_sector').val();
     $openings.filter(function (index, opening) {
       $opening = $(opening);
-      if ($opening.data('country') === currentCountry && $opening.data('sector') === currentSector) {
+      if ($opening.data('country') === currentCountry) {
         $opening.show();
       } else {
         $opening.hide();
