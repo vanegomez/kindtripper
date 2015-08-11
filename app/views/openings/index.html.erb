@@ -7,8 +7,10 @@
     <% cache("openings_list") do %>
       <% @openings.each do |opening| %>
         <div class="opening" data-country="<%= opening.country %>" data-sector="<%= opening.sector %>">
+          <div><%= image_tag opening.image %></div>
           <dl>
             <h3><%= link_to opening.title, opening_path(opening) %></h3>
+            <!--<dt><%#= image_tag opening.image %></dt>-->
             <dt>Country</dt>
             <dd class="opening_country"><%= opening.country.capitalize %></dd>
             <dt>Sector</dt>

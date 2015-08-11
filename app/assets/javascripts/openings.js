@@ -14,7 +14,6 @@ $(document).ready(function () {
     });
   });
 
-
   $('#opening_filter_sector').on('change', function () {
     var currentSector = this.value;
     $openings.filter(function (index, opening) {
@@ -26,5 +25,4 @@ $(document).ready(function () {
       }
     });
   });
-
 });

@@ -5,6 +5,7 @@
   </div>
   <div class="large-6 columns">
     <ul class="inline-list right">
+      <li><%= link_to "Volunteer Abroad", openings_path %></li>
       <% if current_user %>
         <li><%= link_to current_user.name, user_path(current_user) %></li>
         <li><%= link_to "logout", logout_path, method: :delete %></li>

@@ -3,6 +3,8 @@ class Opening < ActiveRecord::Base
   has_many :user_openings
   has_many :users, through: :user_openings
 
+  # validates :title
+
   def self.parse_response
     page = "http://www.peacecorps.gov/api/v1/openings"
     data = []
@@ -40,6 +42,14 @@ class Opening < ActiveRecord::Base
   def self.by_sector
     Opening.all.pluck(:sector).uniq.sort
   end
+
+  def image
+    "#{sector.parameterize}.jpg"
+    # "#{sector.parameterize}-#{id % 3}.jpg"
+  end
+  # "community-economic-development-0.jpg"
+  # "community-economic-development-1.jpg"
+  # "community-economic-development-2.jpg"
 end
 
-
+# <dt> <%= image_tag opening.image %></dt>
