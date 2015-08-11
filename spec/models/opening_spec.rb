@@ -42,11 +42,11 @@ RSpec.describe Opening, type: :model do
     expect(opening).to_not be_valid
   end
 
-  it 'responds to presence of user openings' do
-    respond_to :user_openings
-  end
-
   it 'responds to presence of users' do
     respond_to :users
+  end
+
+  it 'responds to presence of openings' do
+    respond_to :openings
   end
 end

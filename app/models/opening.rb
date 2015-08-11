@@ -3,7 +3,13 @@ class Opening < ActiveRecord::Base
   has_many :user_openings
   has_many :users, through: :user_openings
 
-  # validates :title
+  validates :title, presence: true
+  validates :req_id, presence: true
+  validates :country, presence: true
+  validates :sector, presence: true
+  validates :apply_date, presence: true
+  validates :start_date, presence: true
+  validates :project_description, presence: true
 
   def self.parse_response
     page = "http://www.peacecorps.gov/api/v1/openings"
