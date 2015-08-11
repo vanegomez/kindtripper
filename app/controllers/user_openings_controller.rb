@@ -1,7 +1,7 @@
 class UserOpeningsController < ApplicationController
   def create
     current_user.user_openings.create(opening_id: set_opening.id)
-    flash[:notice] = 'Opening was saved to your favorites.'
+    flash[:notice] = 'Job was saved to your favorites.'
     redirect_to user_path(current_user)
   end
 

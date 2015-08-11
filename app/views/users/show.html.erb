@@ -1,10 +1,14 @@
-<h3><%= current_user.name %>'s Favorites Job Openings</h3>
-
-<% current_user.user_openings.each do |uo| %>
-  <div>
-    <h5><%= link_to uo.opening.title, opening_path(uo.opening) %></h5>
-    <p>Apply by: <%= uo.opening.apply_date %> | Start date: <%= uo.opening.start_date %></p>
-    <p><%= link_to "Delete", uo, method: :delete, data: { confirm: 'Are you sure?' }  %></p>
-    <hr>
+<div class="row">
+  <div class="small-9 columns small-centered">
+    <h3><%= current_user.name %>'s Favorites Job Openings</h3>
+    <% current_user.user_openings.each do |uo| %>
+      <div class="opening" %>
+        <h5><%= link_to uo.opening.title, opening_path(uo.opening) %></h5>
+        <p>Apply by: <%= uo.opening.apply_date %> | Start date: <%= uo.opening.start_date %></p>
+        <p><%= link_to "Delete", uo, method: :delete, data: { confirm: 'Are you sure?' }  %></p>
+        <hr>
+      </div>
+    <% end %>
   </div>
-<% end %>
+</div>
+
