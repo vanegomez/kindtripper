@@ -1,4 +1,7 @@
 class User < ActiveRecord::Base
+  has_many :user_openings
+  has_many :openings, through: :user_openings
+
   def self.find_or_create_from_oauth(oauth)
     if user = find_by(uid: oauth.uid)
       user

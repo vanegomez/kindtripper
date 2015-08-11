@@ -1,5 +1,6 @@
 class OpeningsController < ApplicationController
   require 'httparty'
+
   def index
     @openings  = Opening.all
     @countries = @openings.by_country

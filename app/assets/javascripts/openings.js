@@ -2,17 +2,6 @@ $(document).ready(function () {
 
   var $openings = $('.opening');
 
-  //DataFiltering = {
-  //  currentCountry: nil,
-  //  currentSector: nil,
-  //  filter: function() {
-  //
-  //  }
-  //}
-  //
-  //window.data_filtering = new DataFiltering;
-
-
   $('#opening_filter_country').on('change', function () {
     var currentCountry = this.value.toLowerCase();
     var currentSector = $('#opening_filter_sector').val();

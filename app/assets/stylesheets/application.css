@@ -104,6 +104,12 @@ button.round, .button.round {
 
 /*opening show page*/
 
+.opening {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
 .post {
   box-shadow: 0 2px 0 rgba(204, 204, 204, 0.15);
   margin-bottom: 1.3rem;
@@ -160,7 +166,7 @@ button.round, .button.round {
     font-weight: 900;
     text-shadow: 2px 2px #333; } }
 
-.post .content .share .count {
+.post .content .share .save {
   line-height: 14px;
   display: inline-block;
   position: relative;
@@ -168,7 +174,7 @@ button.round, .button.round {
   margin: 0 5px; }
 
 @media only screen and (max-width: 40em) {
-  .post .content .share .count {
+  .post .content .share .save {
     position: relative;
     top: -2.2rem;
     color: #fff;
@@ -207,3 +213,9 @@ button.round, .button.round {
 
 #cycler img.active {
   z-index:3 }
+
+.small-9.columns.small-centered {
+  background-color: white;
+  border-style: dotted;
+  border-width: thin;
+}
