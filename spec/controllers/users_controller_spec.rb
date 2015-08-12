@@ -1,19 +1,13 @@
-require 'rails_helper'
+require "rails_helper"
 
-describe UsersController do
-  context '#show' do
-    it 'returns an user' do
-      user = User.create(name: "Vane Gomez", nickname: "Vane", uid: "12345", token: "12345", token_secret: "12345")
+RSpec.describe UsersController, type: :controller do
+  let(:user) { User.create(name: "Vane Gomez", nickname: "Vane", uid: "12345", token: "12345", token_secret: "12345") }
 
+  describe "GET show" do
+    it "returns http success" do
       get :show, id: user.id
-
-      expect(response).to have_http_status(:ok)
-
-      # poptart_response = JSON.parse(response.body)
-      puts response.body
-      expect(response.body["name"]).to eq('Vane Gomez')
-
-      # expect(response.body['sprinkles']).to eq('none')
+      expect(response).to have_http_status(:success)
     end
   end
 end
+

@@ -14,6 +14,7 @@ gem 'foundation-rails'
 gem 'omniauth-twitter'
 gem 'figaro'
 gem 'httparty'
+gem 'faraday'
 gem 'rails_12factor', group: :production
 
 group :development, :test do
