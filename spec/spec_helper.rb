@@ -1,5 +1,5 @@
-require 'simplecov'
-SimpleCov.start
+require "capybara/rspec"
+require "rails_helper"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -9,4 +9,9 @@ RSpec.configure do |config|
   config.mock_with :rspec do |mocks|
     mocks.verify_partial_doubles = true
   end
+
+  config.color = true
+
+  config.include Rails.application.routes.url_helpers
+  config.tty = true
 end
