@@ -24,7 +24,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'pry'
   gem 'capybara'
-  gem 'mocha'
+  gem 'database_cleaner'
   gem 'launchy'
   gem 'vcr'
 end

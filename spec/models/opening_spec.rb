@@ -49,4 +49,21 @@ RSpec.describe Opening, type: :model do
   it 'responds to presence of openings' do
     respond_to :openings
   end
+
+  it 'can find or create a job' do
+    expect(Opening.find_or_create_job.count).to eq(198)
+  end
+
+  it 'can find all the countries' do
+    expect(Opening.by_country.count).to eq(0)
+  end
+
+  it 'can find all the sectors' do
+    expect(Opening.by_sector.count).to eq(0)
+  end
+
+  it 'responds to image method' do
+    expect(opening).to respond_to(:image)
+    expect(opening.image).to eq("sector.jpg")
+  end
 end

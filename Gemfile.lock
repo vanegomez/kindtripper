@@ -58,6 +58,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
+    database_cleaner (1.4.1)
     debug_inspector (0.0.2)
     diff-lcs (1.2.5)
     docile (1.1.5)
@@ -91,13 +92,10 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    metaclass (0.0.4)
     method_source (0.8.2)
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.7.0)
-    mocha (1.1.0)
-      metaclass (~> 0.0.1)
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -218,6 +216,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.1.0)
+  database_cleaner
   faraday
   figaro
   foundation-rails
@@ -225,7 +224,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   launchy
-  mocha
   omniauth-twitter
   pg
   pry

@@ -1,5 +1,6 @@
 require "capybara/rspec"
 require "rails_helper"
+require "factory_girl_rails"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
@@ -14,4 +15,6 @@ RSpec.configure do |config|
 
   config.include Rails.application.routes.url_helpers
   config.tty = true
+
+  config.include FactoryGirl::Syntax::Methods
 end

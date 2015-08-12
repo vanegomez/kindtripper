@@ -59,11 +59,5 @@ class Opening < ActiveRecord::Base
 
   def image
     "#{sector.parameterize}.jpg"
-    # "#{sector.parameterize}-#{id % 3}.jpg"
   end
-  # "community-economic-development-0.jpg"
-  # "community-economic-development-1.jpg"
-  # "community-economic-development-2.jpg"
 end
-
-# <dt> <%= image_tag opening.image %></dt>
