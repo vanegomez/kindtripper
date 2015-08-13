@@ -64,11 +64,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rails_helper.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="rails_helper.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-                  <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+                  <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="360">
+                  <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="skylight.yml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/config/skylight.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.09719223" vertical-offset="0" max-vertical-offset="463">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -165,7 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/initializers/omniauth.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150805193823_change_screen_name_column_to_nick_name_in_user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20150805194812_change_column_name_to_token_in_user.rb" />
@@ -216,6 +235,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/config/skylight.yml" />
       </list>
     </option>
   </component>
@@ -378,6 +398,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kindtripper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kindtripper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -515,7 +549,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="rai&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/rails_helper.rb&#10;spe&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/spec_helper.rb&#10;css&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/stylesheets/foundation_and_overrides.scss&#10;lo&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/integration/user_logs_in_with_twitter_spec.rb&#10;app&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;_f&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/_filter.html.erb&#10;inde&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/index.html.erb&#10;_&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/shared/_footer.html.erb&#10;sho&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/users/show.html.erb&#10;f&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/stylesheets/foundation_and_overrides.scss&#10;_na&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;op&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/models/opening_spec.rb&#10;ro&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/routes.rb&#10;user&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/models/user.rb&#10;se&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/sessions_controller.rb&#10;ge&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;rou&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/routes.rb&#10;ra&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/rails_helper.rb&#10;ap&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;ope&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/models/opening.rb&#10;sess&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/sessions_controller.rb&#10;fara&#9;FILE&#9;file:///Users/Vane/.rvm/gems/ruby-2.2.1/gems/vcr-2.9.3/lib/vcr/library_hooks/faraday.rb&#10;gem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;spec&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/spec_helper.rb&#10;us&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/users_controller.rb&#10;faraday&#9;null&#9;null&#10;rail&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/rails_helper.rb&#10;show&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/users/show.html.erb&#10;appl&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/javascripts/application.js&#10;fil&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/_filter.html.erb&#10;_nav&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;sch&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;im&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/javascripts/image.js&#10;sche&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;schem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;gemfile&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="git&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/.gitignore&#10;rai&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/rails_helper.rb&#10;spe&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/spec_helper.rb&#10;css&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/stylesheets/foundation_and_overrides.scss&#10;lo&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/integration/user_logs_in_with_twitter_spec.rb&#10;app&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;_f&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/_filter.html.erb&#10;inde&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/index.html.erb&#10;_&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/shared/_footer.html.erb&#10;sho&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/users/show.html.erb&#10;f&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/stylesheets/foundation_and_overrides.scss&#10;_na&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;op&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/models/opening_spec.rb&#10;ro&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/routes.rb&#10;user&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/models/user.rb&#10;se&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/sessions_controller.rb&#10;ge&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;rou&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/config/routes.rb&#10;ra&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/rails_helper.rb&#10;ap&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/application.html.erb&#10;ope&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/models/opening.rb&#10;sess&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/sessions_controller.rb&#10;fara&#9;FILE&#9;file:///Users/Vane/.rvm/gems/ruby-2.2.1/gems/vcr-2.9.3/lib/vcr/library_hooks/faraday.rb&#10;gem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile&#10;spec&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/spec_helper.rb&#10;us&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/controllers/users_controller.rb&#10;faraday&#9;null&#9;null&#10;rail&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/spec/rails_helper.rb&#10;show&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/users/show.html.erb&#10;appl&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/javascripts/application.js&#10;fil&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/openings/_filter.html.erb&#10;_nav&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/views/layouts/_navbar.html.erb&#10;sch&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;im&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/app/assets/javascripts/image.js&#10;sche&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;schem&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/db/schema.rb&#10;gemfile&#9;FILE&#9;file:///Users/Vane/turing/3module/kindtripper/Gemfile" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../poptart_store" />
     <property name="options.lastSelected" value="preferences.keymap" />
@@ -707,7 +741,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12035541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12035541" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -761,25 +795,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20150806215955_add_project_description_column_to_opening.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="440">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6026786" vertical-offset="0" max-vertical-offset="448">
-          <caret line="18" column="68" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -1080,14 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58219177" vertical-offset="0" max-vertical-offset="360">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/openings/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="525">
@@ -1147,7 +1158,31 @@
     <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58315337" vertical-offset="0" max-vertical-offset="463">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.2" vertical-offset="0" max-vertical-offset="360">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/skylight.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09719223" vertical-offset="0" max-vertical-offset="463">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
