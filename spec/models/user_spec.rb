@@ -12,8 +12,13 @@ RSpec.describe User, type: :model do
     expect(user).to_not be_valid
   end
 
-  it 'is invalid without a uid' do
+  it 'is invalid without a nickname' do
     user.nickname = nil
+    expect(user).to_not be_valid
+  end
+
+  it 'is invalid without a uid' do
+    user.uid = nil
     expect(user).to_not be_valid
   end
 
@@ -38,10 +43,6 @@ RSpec.describe User, type: :model do
   it 'can find an user' do
     me = User.find_or_create_from_oauth(user)
     expect(me.uid).to eq("12345")
-  end
-
-  it 'responds to twitter client method' do
-    expect(user).to respond_to(:twitter_client)
   end
 end
 

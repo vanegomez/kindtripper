@@ -1,6 +1,6 @@
 <div class="row">
   <div class="small-9 columns small-centered">
-    <h3><%= current_user.name %>'s Favorites Job Openings</h3>
+    <h3 class="user"><%= current_user.name %>'s Favorites Job Openings</h3>
     <% current_user.user_openings.each do |uo| %>
       <div class="opening" %>
         <h5><%= link_to uo.opening.title, opening_path(uo.opening) %></h5>

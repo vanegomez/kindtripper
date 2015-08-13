@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'simplecov'
 gem 'rails', '4.2.1'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
@@ -14,10 +13,10 @@ gem 'foundation-rails'
 gem 'omniauth-twitter'
 gem 'figaro'
 gem 'httparty'
-gem 'faraday'
 gem 'rails_12factor', group: :production
 
 group :development, :test do
+  gem 'simplecov'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
@@ -26,6 +25,5 @@ group :development, :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
-  gem 'vcr'
 end
 

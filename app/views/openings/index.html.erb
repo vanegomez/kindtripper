@@ -1,13 +1,14 @@
 <div class="row">
-  <div class="large-4 columns small-centered">
-    <%= render partial: "filter" %>
-  </div>
-
+<div class="large-7 columns small-centered">
+  <%= render partial: "filter" %>
+</div>
+</div>
+<div class="row">
   <div class="small-9 columns small-centered">
     <% cache("openings_list") do %>
       <% @openings.each do |opening| %>
         <div class="opening" data-country="<%= opening.country %>" data-sector="<%= opening.sector %>">
-          <div><%= image_tag opening.image %></div>
+          <div id="image"><%= image_tag opening.image %></div>
           <dl>
             <h3><%= link_to opening.title, opening_path(opening) %></h3>
             <!--<dt><%#= image_tag opening.image %></dt>-->

@@ -3,8 +3,6 @@ class SessionsController < ApplicationController
     user = User.find_or_create_from_oauth(oauth)
     if user
       session[:user_id] = user.id
-    else
-      flash[:errors] = "Login unsuccessful, please try again."
     end
     redirect_to session[:back_to] || user_path
   end

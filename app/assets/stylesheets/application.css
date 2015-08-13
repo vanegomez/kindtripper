@@ -18,8 +18,13 @@
 
 body {
   background-color: #eeeeee;
-  color: #615753;
+  color: #2E2F30;
   /*color: #2E2F30;*/
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 2.8em;
 }
 
 h5 {
@@ -28,6 +33,7 @@ h5 {
 
 h3 {
   color: deepskyblue;
+  font-family: 'Satisfy', cursive;
 }
 
 a {
@@ -44,7 +50,7 @@ a {
 }
 
 .top-bar-section li:not(.has-form) a:not(.button) {
-  background-color: #2E2F30;;
+  background-color: #2E2F30;
   line-height: 2.8125rem;
   padding: 0 0.9375rem;
 }
@@ -61,15 +67,16 @@ a {
 }
 
 .hero .intro {
-  padding: 3rem;
+  /*padding: 3rem;*/
   position: relative;
   top: 50%;
   transform: translateY(-50%);
   background: rgba(242,241,239,0.7);
-  width: 100%;
+  max-width: 100%;
 }
 
 .hero h1 {
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #2E2F30;
   font-size: 1.5rem;
   line-height: 1.5em;
@@ -84,6 +91,7 @@ a {
   font-weight: 200;
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -108,6 +116,10 @@ button.round, .button.round {
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 10px;
+}
+
+.opening dl {
+  line-height: 1em;
 }
 
 .post {
@@ -218,4 +230,53 @@ button.round, .button.round {
   background-color: white;
   border-style: dotted;
   border-width: thin;
+}
+
+footer {
+  padding-top: 30px;
+  text-align: center;
+  bottom:0;
+  width:100%;
+  height: 70px;
+  position: fixed;
+  background-color: #2E2F30;
+}
+
+footer p {
+  line-height: 6px;
+  font-weight: 200;
+  color: #eeeeee;
+  font-size: 0.9rem;
+}
+
+#filter1, #filter2 {
+  display: inline-block;
+  float: left;
+  width: 250px;
+  height: 80px;
+  margin-left: 20px;
+  padding-top: 1em;
+}
+
+#image {
+  margin-top: 1.250em;
+  margin-bottom: 1.250em;
+}
+
+ul.inline-list.right {
+  padding-top: 1.2em;
+  margin-bottom: 0px;
+}
+
+.user {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+/* Gradient transparent - color - transparent */
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

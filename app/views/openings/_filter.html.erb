@@ -1,8 +1,8 @@
-<div class="filter">
-  <label>Filter by Country</label>
-  <%= select :opening, :filter_country, @countries, {include_blank: true} %>
-  <label>Filter by Interest</label>
-  <%= select :opening, :filter_sector, @sectors, {include_blank: true} %>
+<div id="filter1">
+  <%= select :opening, :filter_country, @countries, { prompt: "Filter by Country" } %>
+</div>
+<div id="filter2">
+  <%= select :opening, :filter_sector, @sectors, { prompt: "Filter by Interest" } %>
 </div>
 
 

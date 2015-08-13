@@ -6,6 +6,7 @@
 
     <title><%= content_for?(:title) ? yield(:title) : "KindTripper" %></title>
 
+    <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
     <%= stylesheet_link_tag    "application", media: 'all' %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -14,7 +15,7 @@
   </head>
 
   <body>
-    <%= render partial: 'layouts/navbar' %>
+    <%= render partial: 'shared/navbar' %>
     <div class="row" class="flash-errors">
       <div class="small-6 small-centered columns">
         <% flash.each do |name, messages| %>
