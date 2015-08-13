@@ -51,11 +51,15 @@ RSpec.describe Opening, type: :model do
   end
 
   it 'can find or create a job' do
-    jobs = Opening.find_or_create_job
-    expect(jobs.count).to eq(198)
+    VCR.use_cassette("finding_jobs") do
+      expect(Opening.count).to eq 0
+      jobs = ImportOpenings.call
+      expect(jobs.length).to be > 0
 
-    Opening.find_or_create_job
-    expect(Opening.count).to eq(198)
+      expect(Opening.count).to eq(jobs.length)
+      ImportOpenings.call
+      expect(Opening.count).to eq(jobs.length)
+    end
   end
 
   it 'can find all the countries' do
